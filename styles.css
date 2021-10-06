@@ -1,0 +1,45 @@
+header {
+    background-color: rgb(178, 236, 20);
+    }
+    
+    main p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: justify;
+    font-size: lem;
+    ;
+    }
+    
+    .container {
+    max-width: 50%;
+    margin: 0 auto;
+    }
+    
+    .main-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 80px;
+    }
+    
+    .main-menu li{
+    display: inline;
+    margin-right: 10px;
+    
+    }
+    
+    .avatar {
+    height: 400px;
+    text-align: center;
+    }
+    
+    .avatar img {
+    height: 100%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        background-color: #45a1ff;
+        color: #fff;
+        font-size: 130%;
+    }
