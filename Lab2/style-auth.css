@@ -1,0 +1,19 @@
+body {
+    background-attachment: fixed;
+    background-repeat:round;
+}
+
+.img {
+   position:absolute;
+   margin-left: 43%;
+   margin-top: 300px;
+   margin-right: 60%;
+}
+
+.form{
+    position: relative;
+    text-align: center;
+    top: 350px;
+    left: 18px;
+}
+

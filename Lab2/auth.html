@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-auth.css">
+    <title>AuthorizeForm</title>
+</head>
+<body background="https://krot.mobi/uploads/posts/2021-01/1611923643_29-p-zadnii-fon-v-abstraktsii-37.jpg">
+    <form method="POST" action="https://httpbin.org/post" enctype="multipart/form-data">
+    
+        <div class="img">
+    <img src="./auth.png" alt="Форма для авторизации" width="280px" height="300px">
+    </div>
+
+    <div class="form">
+    <p>Введите ваш логин</p>
+    <input type="text" name="login" id="login" required>
+    <p>Введите ваш пароль</p>
+    <input type="text" name="password" id="password" required>
+
+    <p><input type="checkbox" name="agreement" id="agreement" required>
+    <label for="agreement">Запомнить мои данные</label></p>
+
+    <p>
+        <input type="submit" value="Отправить">
+    </p>
+    </div>
+</form>
+</body>
+</html>

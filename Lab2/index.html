@@ -1,0 +1,73 @@
+8<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Форма обратной связи</h1>
+        
+        <form method="POST" action="https://httpbin.org/post" enctype="multipart/form-data">
+            
+            <div class="form_group">
+                <label for="fio">ФИО</label>
+                <input type="text" id ="fio" name="fio" placeholder="Иванов Иван Иванович" required>
+            </div>
+
+            <div class="form_group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="ivan.ivanov@mail.ru">
+            </div>
+            
+            <div class="form_group">
+                <p>Как вы о нас узнали</p>
+                <input type="radio" name="source" id="advertising" value="advertising">
+                <label for="advertising">Реклама в интеренете</label>
+                
+                <input type="radio" name="source" id="friend" value="friend">
+                <label for="friend">Друзья</label>
+
+                <input type="radio" name="source" id="family" value="family">
+                <label for="family">Родственики</label>
+            </div>
+            
+            <div class="form_group">
+                <p><label for="category">Категория обращения</label></p>
+                <select name="category" id="category">
+                    <option value="proposal">Предложение</option>
+                    <option value="feedback" selected>Отзыв</option>
+                    <option value="complaint">Жалоба</option>
+                </select>
+            </div>
+
+            <div class="form_group">
+                <p><label for="msg">Сообщение</label></p>
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Заполните тут"></textarea>
+            </div>
+
+            
+            
+            <div class="form_group">
+                <input type="checkbox" name="agreement" id="agreement" value="yes" required>
+                <label for="agreement">Согласие на обработку персональных данных</label>
+            </div>
+            
+            <div class="form_group">
+                <label for="attachment">Вложение</label>
+                <input type="file" name="attachment" id="attachment">
+            </div>
+        
+        </div>
+
+        <div class="form_group">
+            <input type="submit" value="Отправить">
+        </div>
+    </form>
+    <p><a href="./auth.html">Форма авторизации</a></p>
+</main>
+</body>
+</html>
