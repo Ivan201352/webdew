@@ -1,0 +1,53 @@
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+
+    }
+    a:-webkit-any-link {
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 3ch;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+    
+main p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: justify;
+    font-size: lem;
+    ;
+}
+    
+.container {
+    max-width: 50%;
+    margin: 0 auto;
+}
+    
+
+    
+
+    
+.avatar {
+    height: 400px;
+    text-align: center;
+}
+    
+.avatar img {
+    height: 100%;
+}
+
+footer {
+        display: flex;
+        justify-content: center;
+        background-color: #45a1ff;
+        color: #fff;
+        font-size: 130%;
+        font-family: unset;
+        font-family: 'Montserrat Alternates', sans-serif;
+}
+.header{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #45a1ff;
+}
