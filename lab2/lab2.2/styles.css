@@ -1,0 +1,13 @@
+.authForm {
+    text-align: center;
+}
+.content {
+    margin-top: 17.5%;    
+    border: 2px double white;
+    
+    padding: 1px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
