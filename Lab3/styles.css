@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(207, 188, 201);
+    min-height: 20px;
+    border-bottom: 5px solid black;
+}
+
+.header a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.text {
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+}
+
+.productsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around
+}
+
+.productCard {
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    min-height: 250px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+}
+
+.full-name {
+    font-weight: lighter;
+    margin-top: 0px;
+}
