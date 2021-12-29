@@ -1,0 +1,42 @@
+.navbar{
+    background-color: rgb(197, 177, 0);
+    font-size: 25px;
+}
+
+.img-about{
+    width: 300px;
+    height: 300px;
+}
+
+.img-head{
+    width: 400px;
+}
+
+.heading-line{
+    height: 3px;
+    width: 200px;
+}
+
+.tech-img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.dark{
+    background-color: #868526;
+    color: #ecff81;
+    height: 300px;
+}
+
+.footer{
+    background-color: rgb(197, 177, 0);
+    color: white;
+}
+
+@media (max-width: 1000px){
+    .list{
+        list-style-type: none;
+    }
+
+   
+}
